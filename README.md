@@ -4,7 +4,7 @@ This project features a tribute page dedicated to Taylor Swift, celebrating her 
 
 ## Live Demo
 
-You can view the live version of this tribute page [here](https://thedcollins.github.io/taylor_swift_tribute_page/).
+You can view the live version of this tribute page [here](https://thedcollins.github.io/build_a_tribute_page/).
 
 ## Project Overview
 
