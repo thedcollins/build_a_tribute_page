@@ -1,0 +1,148 @@
+html {
+  /* Setting a base font size of 10px for easier rem calculations */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  background-color: #F7F7F7; /* Light Gray for general background */
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #FFDAB9;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+/* Discography album colors */
+li[data-album="Taylor Swift"] {
+  color: #A0D6E8; /* Light Blue for album "Taylor Swift" */
+}
+
+strong[data-album="Fearless"] {
+  color: #F9C74F; /* Gold for album "Fearless" */
+}
+
+strong[data-album="Speak Now"] {
+  color: #B084CC; /* Purple for album "Speak Now" */
+}
+
+strong[data-album="Red"] {
+  color: #E63946; /* Red for album "Red" */
+}
+
+strong[data-album="1989"] {
+  color: #1D8E8D; /* Turquoise for album "1989" */
+}
+
+strong[data-album="Reputation"] {
+  color: #333333; /* Dark Gray for album "Reputation" */
+}
+
+strong[data-album="Lover"] {
+  color: #FF77A9; /* Pink for album "Lover" */
+}
+
+strong[data-album="folklore"] {
+  color: #D7CEC7; /* Beige for album "folklore" */
+}
+
+strong[data-album="evermore"] {
+  color: #5B9A77; /* Forest Green for album "evermore" */
+}
+strong[data-album="Midnights"] {
+  color: #6D28D9; /* Purple for album "Midnights" */
+}
+strong[data-album="Tortured Poets Department"] {
+  color: #FF6347; /* Tomato for album "Tortured Poets Department" */
+}
+
+/* Biography section to match discography width */
+#biography {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: evenly-spaced;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
