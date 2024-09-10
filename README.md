@@ -27,6 +27,10 @@ This project is a tribute page dedicated to Taylor Swift, celebrating her remark
 - **`index.html`:** Contains the HTML structure for the tribute page, including biography, discography, and image sections.
 - **`styles.css`:** Contains the CSS styles for layout, typography, and responsive design.
 
+## Live Demo
+
+You can view the live version of this tribute page [here](https://thedcollins.github.io/taylor_swift_tribute_page/).
+
 ## TODO
 
 - **Enhance Content:** Add more details or multimedia content to enrich the tribute page.
